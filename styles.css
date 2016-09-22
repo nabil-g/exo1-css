@@ -3,16 +3,16 @@
  ****************************/
 body
 {
-	font-family: Arial;	
+	font-family: 'Baloo Bhai', cursive;	
 	color: white;
 	display: flex;
 	flex-direction: column;
+	margin: auto;
 }
 
 header
 {
 	background-color: #1D6D75;
-	top:0;
 }
 
 footer
@@ -34,8 +34,8 @@ nav ul li a
 {
 	text-decoration: none;
 	color: white;
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 8px;
+	margin-left: 8px;
 }
 
 
@@ -50,7 +50,63 @@ h1{
 	font-size: 40px;
 }
 
+#conteneurLogo
+{
+	margin: 20px;
+}
+
 #conteneurLogoetTitre
 {
-	display: inline-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+#conteneurTitre
+{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	text-align: center;
+}
+
+#page{
+	 
+	margin: auto;
+}
+
+#conteneurPhotos
+{
+	display: flex;
+	flex-direction: column;
+	margin: 4px;
+}
+
+#conteneurPhotos1, #conteneurPhotos2
+{
+	display: flex;
+	flex-direction: row;
+}
+
+footer{
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+}
+
+.photos{
+	height: 70%;
+	width: 70%;
+	margin: 4px;
+}
+
+#formJoin
+{
+	margin: 30px;
+	justify-content: center;
+}
+
+#button
+{
+	
 }

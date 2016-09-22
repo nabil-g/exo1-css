@@ -4,6 +4,7 @@
 	<title>CODA</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
 </head>
 <body>
 	
@@ -21,23 +22,31 @@
 		</nav>
 		<div id="conteneurLogoetTitre">
 			<div id="conteneurLogo"><img id="logo" src="img/logo.png"></div>
-			<h1>CODA</h1>
-			<h3>Formation Développement Web et Mobile</h3>
+			<div id="conteneurTitre">
+				<h1>CODA</h1>
+				<h3>Formation Développement Web et Mobile</h3>
+			</div>
 		</div>
 	</header>
 	
 	<section id="page">
-		<div class="photos"><img id="photo1" src="img/image1.jpg"></div>
-		<div class="photos"><img id="photo2" src="img/image2.jpg" ></div>
-		<div class="photos"><img id="photo3" src="img/image3.jpg" ></div>
-		<div class="photos"><img id="photo4" src="img/image4.jpg" ></div>
+		<div id="conteneurPhotos">
+			<div id="conteneurPhotos1">
+				<div class="photos"><img id="photo1" src="img/image1.jpg"></div>
+				<div class="photos"><img id="photo2" src="img/image2.jpg" ></div>
+			</div>
+
+			<div id="conteneurPhotos2">
+				<div class="photos"><img id="photo3" src="img/image3.png" ></div>
+				<div class="photos"><img id="photo4" src="img/image4.jpg" ></div>
+			</div>
+		</div>
 	</section>
 	
 	<footer>
-		<form>
+		<form id="formJoin">
 			<input type="text" name="text">
-			<input type="submit" value="Join
-			">
+			<input id="button" type="submit" value="Join">
 		</form>
 	</footer>
 
