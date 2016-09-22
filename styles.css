@@ -1,3 +1,56 @@
 /****************************
  ====== Votre super CSS =====
  ****************************/
+body
+{
+	font-family: Arial;	
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+header
+{
+	background-color: #1D6D75;
+	top:0;
+}
+
+footer
+{
+	background-color: #282828;
+	bottom:0;
+}
+
+nav ul
+{
+	list-style-type: none;
+	top: 0;
+	float: right;
+	margin-right: 50px;
+	display: flex;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+#logo
+{
+	/*background-image: url("img/logo.png");*/
+	height: 165px;
+	width: 165px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+#conteneurLogoetTitre
+{
+	display: inline-flex;
+}
